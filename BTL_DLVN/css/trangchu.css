@@ -1,6 +1,4 @@
-
-
-* {
+*{
     padding: 0;
     margin: 0;
     outline: none;
@@ -9,7 +7,7 @@
     scrollbar-width: auto;
     scrollbar-color: auto;
     position: relative;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 body {
@@ -18,19 +16,19 @@ body {
     overflow-x: hidden;
 }
 
-.p1 {
+.p1{
     font-size: 20px;
 }
 
-b {
+b{
     color: rgb(97, 95, 95);
     font-size: 17px;
 }
-.b1 {
+.b1{
     color: white;
 }
 
-.div1 {
+.div1{
     background-image: url("https://vietnam.travel/themes/custom/vietnamtourism/images/bg-home-inspire.jpg");
     background-size: cover;
     margin-top: -11px;
@@ -39,7 +37,7 @@ b {
     text-align: center;
 }
 
-.divf, .div2, .div3 {
+.divf, .div2{
     width: auto;
     padding: 10px;
 }
@@ -50,7 +48,7 @@ b {
     gap: 20px;
 }
 
-.lop {
+.lop{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -61,6 +59,7 @@ b {
     padding: 10px;
 }
 
+
 .img-container {
     width: 100%;
     max-width: 500px;
@@ -68,19 +67,20 @@ b {
     border: 2px solid #ebe9e9;
     overflow: hidden;
     position: relative;
+    
 }
 
-.anh {
+.anh{
     display: block;
     width: 100%;
     height: auto;
     transition: transform 1s ease;
 }
 
+
 .img-container:hover .anh {
     transform: scale(1.1);
 }
-
 .h {
     color: rgb(147, 147, 51);
 }
@@ -100,11 +100,11 @@ b {
     max-width: 100%;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-nav {
+nav{
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -144,3 +144,5 @@ nav {
 .link a:hover::after {
     width: 100%;
 }
+
+
