@@ -194,32 +194,4 @@ hr{
 .div22{
     width: 1000px;
 }
-ul{
-    list-style: none;
-}
 
-ul li a{
-    display: block;
-    color: #FFF;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-ul li ul.dropdown li{
-    display: block;
-}
-ul li ul.dropdown{
-    width: 90px;
-    position: absolute;
-    z-index: 999;
-    display: none;
-
-    background: rgb(240, 240, 240);
-}
-ul li a:hover{
-    background: rgb(240, 240, 240);
-}
-ul li:hover ul.dropdown{
-    display: block;
-}
