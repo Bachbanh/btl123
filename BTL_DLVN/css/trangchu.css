@@ -11,10 +11,9 @@
 
 body{
     padding: 0;
-    background-color: black;/*da sua*/
+    background-color: rgb(165, 161, 161);
     overflow-x: hidden;
     margin: 0;
-
 }
     
 nav{
