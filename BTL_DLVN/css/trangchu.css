@@ -27,12 +27,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: white
+    background: white;
     
 }
 
 .nav-logo {
     max-width: 150px;
+    display: block;
 }
 
 .nav-link {
@@ -188,6 +189,9 @@ footer{
     display: block;
     background-color: white;
     margin: 20px;
+}
+.anhft{
+   height: 70px;
 }
 .divbang{
     padding: 20px;
