@@ -75,7 +75,7 @@ b{
     color: white;
 }
 
-.div1{
+.divtrangchu{
     background-image: url("https://vietnam.travel/themes/custom/vietnamtourism/images/bg-home-inspire.jpg");
     background-size: cover;
     margin-top: -11px;
@@ -144,7 +144,7 @@ b{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 720px;
     width: 100%;
     max-width: 100%;
 }
@@ -192,3 +192,21 @@ footer{
     border-top: 1px solid #9e0b0f;
 }
 
+.chu{
+    max-width: 1000px;
+    font-size: 120px;
+    top: calc(50% - 150px);
+    left: 0;
+    right: 0;
+    width: 90%;
+    color: white;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    
+}
+h1{
+    display: block;
+    font-weight: 300;
+    line-height: 2.1;
+}
