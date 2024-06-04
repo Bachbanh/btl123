@@ -118,6 +118,9 @@ b{
 .image-row {
     display: flex;
     justify-content: center;
+   
+    
+    
 }
 
 .lop{
@@ -233,7 +236,12 @@ footer{
     margin: 0 auto;
     position: absolute;
     text-align: center;
+    font-family: HoneyCream, Helvetica, Arial, sans-serif;
+    font-family: Northwell, Helvetica, Arial, sans-serif;
 }
+h1.chu {
+    font-family: 'Northwell', Helvetica, Arial, sans-serif;
+  }
 h1{
     display: block;
     font-weight: 300;
@@ -285,4 +293,15 @@ ul li a:hover:after{
 .divul{
     padding: 30px;
     border: 1px solid black;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(178, 145, 14);
+    margin-bottom: 20px;
+}
+.divmienbac2{
+    background: #ebebeb;
+    padding: 40px;
 }
