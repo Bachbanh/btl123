@@ -7,12 +7,12 @@
     box-sizing: border-box;
     scrollbar-width: auto;
     scrollbar-color: auto;
-    line-height: 2.5rem;
+    line-height: 1.9rem;
 }
 
 body{
     padding: 0;
-    background-color:gray;
+    background-color:white;
     overflow-x: hidden;
     margin: 0;  
 }
@@ -27,7 +27,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: white;
+    background:white;
+    background-image: url(https://vietnam.travel/themes/custom/vietnamtourism/images/plan-landing-bg.jpg);
     
 }
 
@@ -39,7 +40,7 @@ nav{
 .nav-link {
     list-style: none;
     display: flex;
-    gap: 3.5rem;
+    gap: 2.5rem;
 }
 
 .link a {
@@ -49,27 +50,12 @@ nav{
     color: #333
 }
 
-.link a::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #e71717;
-    transition: all 0.3s ease;
-}
-
-.link a:hover::after {
-    width: 100%;
-}
-
 .p1{
     font-size: 20px;
+    line-height: 2.3;
 }
 
 b{
-    color: rgb(97, 95, 95);
     font-size: 17px;
 }
 
@@ -101,10 +87,14 @@ b{
     line-height: 1.1;
 }
 
-.divf, .div2{
+.divf{
+    width: 1040px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}   
+.div2{
     width: auto;
-    padding: 10px;
-
 }
 
 .div5{
@@ -128,7 +118,6 @@ b{
 .image-row {
     display: flex;
     justify-content: center;
-    gap: 20px;
 }
 
 .lop{
@@ -181,7 +170,7 @@ b{
     background-repeat: no-repeat;
     height: 720px;
     width: 100%;
-    max-width: 100%;
+
 }
 
 
@@ -226,7 +215,11 @@ footer{
     text-align: center;
 }
 .div4{
-    border-top: 1px solid #9e0b0f;
+    width: 1040px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #d28d8f;
 }
 
 .chu{
@@ -237,7 +230,7 @@ footer{
     right: 0;
     width: 90%;
     color: #fff;
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     text-align: center;
 }
@@ -248,4 +241,48 @@ h1{
 }
 .anhbe{
     width: 560px;
+}
+
+
+ul li a{
+    border: 1px solid #a5190e;
+    border-radius: 5px;
+    color: #252525;
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    min-width: 130px;
+    transition: all .3s ease;
+}
+
+ul li a:hover{
+    color: #fff;
+    background-image: 
+        url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-tl.png), 
+        url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-tr.png), 
+        url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-br.png), 
+        url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-bl.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-color: #a5190e;
+    border-radius: 5px;
+    position: relative;
+}
+
+ul li a:hover:after{
+    border: 1px solid #f7bd01;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+}
+.divlogo{
+    border:  1px solid black;
+}
+.divul{
+    padding: 30px;
+    border: 1px solid black;
 }
