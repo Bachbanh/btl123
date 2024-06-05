@@ -9,6 +9,9 @@
     scrollbar-color: auto;
     line-height: 1.9rem;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     padding: 0;
@@ -28,8 +31,11 @@ nav{
     align-items: center;
     justify-content: space-around;
     background:white;
-    background-image: url(https://vietnam.travel/themes/custom/vietnamtourism/images/plan-landing-bg.jpg);
     
+}
+header nav{
+    background-image: url(https://vietnam.travel/themes/custom/vietnamtourism/images/plan-landing-bg.jpg);
+
 }
 
 .nav-logo {
@@ -81,6 +87,7 @@ b{
 
 }
 
+
 .divbocuc{
     text-align: center;
     width: 300px;
@@ -95,6 +102,9 @@ b{
 }   
 .div2{
     width: auto;
+}
+.div2 .divmienbac2{
+    flex-basis: calc(33.33% - 13.33px);
 }
 
 .div5{
@@ -117,10 +127,11 @@ b{
 
 .image-row {
     display: flex;
-    justify-content: center;
-   
-    
-    
+    justify-content: center; 
+}
+
+.divmienbac2 .image-row{
+    gap: 20px;
 }
 
 .lop{
@@ -304,4 +315,48 @@ ul li a:hover:after{
 .divmienbac2{
     background: #ebebeb;
     padding: 40px;
+    gap: 20px;
+}
+
+
+  
+
+.navmienbac ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+.navmienbac li {
+    margin: 0 20px;
+  }
+  
+.navmienbac a {
+    color: #333;
+    text-decoration: none;
+}
+  
+.navmienbac a:hover {
+    color: #666;
+}
+
+.navmienbac{
+    background-color: #fff !important;
+}
+.divmienbac3{
+    background: url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-pattern.png) 50%;
+    background-size: 100px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+    
+}
+.divmienbac3 .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 2;
 }
