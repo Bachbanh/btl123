@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +8,9 @@
     scrollbar-width: auto;
     scrollbar-color: auto;
     line-height: 1.9rem;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -28,8 +31,11 @@ nav{
     align-items: center;
     justify-content: space-around;
     background:white;
-    background-image: url(https://vietnam.travel/themes/custom/vietnamtourism/images/plan-landing-bg.jpg);
     
+}
+header nav{
+    background-image: url(https://vietnam.travel/themes/custom/vietnamtourism/images/plan-landing-bg.jpg);
+
 }
 
 .nav-logo {
@@ -78,8 +84,9 @@ b{
     text-align: center;
     display: block;
     width: 100%;
-
+    scroll-margin-top: 80px; 
 }
+
 
 .divbocuc{
     text-align: center;
@@ -95,6 +102,9 @@ b{
 }   
 .div2{
     width: auto;
+}
+.div2 .divmienbac2{
+    flex-basis: calc(33.33% - 13.33px);
 }
 
 .div5{
@@ -117,7 +127,11 @@ b{
 
 .image-row {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+}
+
+.divmienbac2 .image-row{
+    gap: 20px;
 }
 
 .lop{
@@ -233,7 +247,12 @@ footer{
     margin: 0 auto;
     position: absolute;
     text-align: center;
+    font-family: HoneyCream, Helvetica, Arial, sans-serif;
+    font-family: Northwell, Helvetica, Arial, sans-serif;
 }
+h1.chu {
+    font-family: 'Northwell', Helvetica, Arial, sans-serif;
+  }
 h1{
     display: block;
     font-weight: 300;
@@ -285,4 +304,66 @@ ul li a:hover:after{
 .divul{
     padding: 30px;
     border: 1px solid black;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(178, 145, 14);
+    margin-bottom: 20px;
+}
+.divmienbac2{
+    background: #ebebeb;
+    padding: 40px;
+    gap: 20px;
+    scroll-margin-top: 40px; 
+}
+
+.navmienbac ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+.navmienbac li {
+    margin: 0 20px;
+  }
+  
+.navmienbac a {
+    color: #333;
+    text-decoration: none;
+}
+  
+.navmienbac a:hover {
+    color: #666;
+}
+
+.navmienbac{
+    background-color: #fff !important;
+    
+}
+
+
+.divmienbac3{
+    background: url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-pattern.png) 50%;
+    background-size: 100px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    scroll-margin-top: 40px;  
+}
+.divmienbac3 .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+
+.hienthi{
+    top:0;
+    position: sticky;
+    z-index: 1000;
 }
