@@ -365,3 +365,56 @@ ul li a:hover:after{
     position: sticky;
     z-index: 1000;
 }
+
+.desc{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc h2{
+    font-size: 22px;
+    line-height: 28px;
+    font-family: VNFGothamBook, Helvetica, Arial, sans-serif;
+    color: #848484;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    width: 100%;
+}
+.desc h4{
+    font-family: VNFGothamBook, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    color: #848484;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    font-weight: 500;
+    display: block;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    box-sizing: content-box;
+    height: 0;
+}
+.desc h3{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: VNFGothamBold, Helvetica, Arial, sans-serif;
+    color: #9e0b0f;
+}
+.desc strong{
+    font-family: VNFGothamBold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.desc p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: VNFGothamBook, Helvetica, Arial, sans-serif;
+    color: #252525;
+    margin-bottom: 15px;
+}
