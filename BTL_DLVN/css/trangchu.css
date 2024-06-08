@@ -310,7 +310,7 @@ ul li a:hover:after{
     color: rgb(178, 145, 14);
     margin-bottom: 20px;
 }
-.divmienbac2{
+.divmienbac2 {
     background: #ebebeb;
     padding: 40px;
     gap: 20px;
@@ -403,8 +403,7 @@ hr{
     line-height: 28px;
     color: #9e0b0f;
 }
-.desc strong{
-   
+.desc strong{   
     font-weight: bold;
 }
 .desc p{
@@ -412,4 +411,23 @@ hr{
     line-height: 24px;
     color: #252525;
     margin-bottom: 15px;
+}
+
+.divhalong{
+    background: #ebebeb;
+    padding: 40px;
+    gap: 20px;
+    scroll-margin-top: 40px; 
+}
+
+.divanhhalong1{
+   
+    display: flex;
+    scroll-margin-top: 40px;  
+    width: 545px;
+}
+
+.divanh1{
+    display: flex;
+    padding: 10px
 }
