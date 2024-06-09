@@ -52,9 +52,14 @@
             <div class="div5">
                 <h2>For many, the seascape of Ha Long Bay is synonymous with Vietnam. Cruises sail emerald green waters among thousands of rugged islands and islets, stopping at spectacular caves through which visitors can wander, viewing impressive, centuries-old formations. Ha Long Bay's mystical beauty has made it a bucket list attraction within the country, but it's still possible to find secluded corners to call your own. </h2>
                 <h4>Click the image below for a 360-degree tour</h4>
-                <a href="https://vietnam.travel/sites/default/files/360Tour/HaLong/index.htm">
-                    <img class="anh" src="https://vietnam.travel/sites/default/files/360Tour/HaLong/socialThumbnail2.jpg">
-                </a>
+                <div class="div2">
+                    <div class="img-container">
+                        <a href="https://vietnam.travel/sites/default/files/360Tour/HaLong/index.htm">
+                            <img class="anh"  src="https://vietnam.travel/sites/default/files/360Tour/HaLong/socialThumbnail2.jpg">
+                        </a>
+                    </div>
+                </div>
+               
                 <hr>
                 <h3><strong>TOP THINGS TO DO IN HA LONG BAY</strong></h3>
                 <p><strong>Cruise the bay</strong></p>
@@ -94,7 +99,7 @@
                        </div>
                         <div class="div2" style="padding: 5px;">
                             <div class="img-container">
-                                <img class="anh" style="width: 226px; height: 160px;"  src="https://vietnam.travel/sites/default/files/styles/article_photo_large/public/2021-05/Ha%20Long%20Cruises.jpg?itok=RgHDYSJZ" alt="">
+                                <img class="anh" style="width: 230px; height: 160px;"  src="https://vietnam.travel/sites/default/files/styles/article_photo_large/public/2021-05/Ha%20Long%20Cruises.jpg?itok=RgHDYSJZ" alt="">
                             </div>
                         </div>
                     </div>
@@ -117,7 +122,7 @@
                         </div>
                          <div class="div2" style="padding: 5px;">
                              <div class="img-container">
-                                 <img class="anh" style="width: 220px; height: 160px;"  src="https://vietnam.travel/sites/default/files/styles/article_photo_large/public/2021-05/Ha%20Long%20Boats%20Vietnam%20Tourism.jpg?itok=fLj8UYLC" alt="">
+                                 <img class="anh" style="width: 223px; height: 160px;"  src="https://vietnam.travel/sites/default/files/styles/article_photo_large/public/2021-05/Ha%20Long%20Boats%20Vietnam%20Tourism.jpg?itok=fLj8UYLC" alt="">
                              </div>
                          </div>
                      </div>
@@ -213,30 +218,32 @@
     <footer>
         <div class="image-row">
             <div class="div2">
-                <div class="divbang">
+                <div class="div bang">
                     <h2 class="h" style="font-size: 21.72px;">SIGN UP FOR OUR NEWSLETTER</h2>
                     <dd>Receive new travel stories from Vietnam once a month in your inbox.</dd>
                     <div class="div2 vien">
-                        <p><input type="email" placeholder="Your email"></p>
+                        <input type="email" placeholder="Your email" aria-invalid="false" id="email">
                     </div>
                     <div class="div3">
-                        <p><button class="sign-up-btn">Sign Up</button></p>
+                        <button class="sign-up-btn" onclick="validateEmail()">Sign Up</button>
                     </div>
+                    <span id="error" style="display:none; color:rgb(252, 108, 108);"> Please enter a value</span>
                 </div>
+                
             </div>
             <div class="div2">
                 <div class="divbang">
-                    <h2><h2 class="h" style="font-size: 21.72px;">FOLLOW US ON</h2></h2>
-                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg">
-                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg">
-                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg">
-                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg">
-                    <img src="https://vietnam.travel/sites/default/files/2021-02/Vietnam%20tourism.jpg">
+                    <h2 class="h" style="font-size: 21.72px;">FOLLOW US ON</h2>
+                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-2_4.jpg" alt="Social Media">
+                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-3_6.jpg" alt="Social Media">
+                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web-4_4.jpg" alt="Social Media">
+                    <img src="https://vietnam.travel/sites/default/files/2020-07/Vietnam%20tourism%20social%20web_4.jpg" alt="Social Media">
+                    <img src="https://vietnam.travel/sites/default/files/2021-02/Vietnam%20tourism.jpg" alt="Social Media">
                     <p>Welcome to the official website of Viet Nam National Authority of Tourism. Visit our social media pages for more travel inspiration.</p>
                 </div>
             </div>
             <div class="div2">
-                <img style="height: 70px;" src="https://vietnam.travel/themes/custom/vietnamtourism/images/logo-bw.png" alt="">
+                <img style="height: 70px;" src="https://vietnam.travel/themes/custom/vietnamtourism/images/logo-bw.png" alt="Vietnam Tourism">
             </div>
         </div>
         <div class="div4">
@@ -244,5 +251,6 @@
             <p><center>Email: 22014061@st.phenikaa-uni.edu.vn</center></p>
         </div>
     </footer>
+    <script src="error.js"></script>
 </body>
 </html>
