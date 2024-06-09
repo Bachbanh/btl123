@@ -417,7 +417,6 @@ ul li a:hover:after{
     color: #848484;
     max-width: 650px;
     margin: auto;
-    padding: 20px;
     font-weight: 500;
     display: block;
 }
@@ -456,6 +455,7 @@ hr{
 .divanhhalong1{
     width: 100%;
     display:flex;
+    justify-content: center;
 }
 
 
