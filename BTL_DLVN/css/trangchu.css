@@ -331,10 +331,6 @@ ul li a:hover:after{
     color: #333;
     text-decoration: none;
 }
-  
-.navmienbac a:hover {
-    color: #666;
-}
 
 .navmienbac{
     background-color: #fff !important;
