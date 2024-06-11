@@ -187,7 +187,7 @@ b{
     background-repeat: no-repeat;
     height: 720px;
     width: 100%;
-
+    height: 100%;
 }
 
 
@@ -251,7 +251,6 @@ input{
 }
 h1.chu {
     font-family: 'Northwell', Helvetica, Arial, sans-serif;
-  
 }
 
 h1{
@@ -364,7 +363,7 @@ ul li a:hover:after{
 }
 .navmienbac li {
     margin: 0 20px;
-  }
+}
   
 .navmienbac a {
     color: #333;
@@ -451,7 +450,6 @@ hr{
     padding: 40px;
     gap: 20px;
     scroll-margin-top: 40px; 
-    
 }
 
 .divanhhalong1{
