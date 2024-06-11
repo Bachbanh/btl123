@@ -15,8 +15,7 @@ html{
 body{
     padding: 0;
     background-color:white;
-    margin: 0;  
-    
+    margin: 0;
 }
     
 nav{
@@ -185,7 +184,6 @@ b{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 720px;
     width: 100%;
     height: 100%;
 }
